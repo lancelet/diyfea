@@ -9,12 +9,14 @@ system is in the works.
 Example Output
 --------------
 
-For an example of mesh convergence produced by this code, please see
+For an example of solution convergence produced by this code as a mesh is
+progressively refined, please see
 [this YouTube video](http://www.youtube.com/watch?v=QrzcakDmJgc).
 
 Compiling and Running
 ---------------------
 
-Just install [sbt](http://www.scala-sbt.org/), and then execute `sbt run`.  You
-will be given the option to execute a plate loading test or a truss test.  For
-more details on both of these tests, please see the code.
+Just install [sbt](http://www.scala-sbt.org/), and then execute `sbt run` from
+the `diyfea` directory.  You will be given the option to execute a plate 
+loading test or a truss test.  For more details on both of these tests, please
+see the code.
